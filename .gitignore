@@ -1,0 +1,72 @@
+# =========================
+# Java / Spring Boot
+# =========================
+/target/
+*.log
+*.class
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# Gradle (if ever used)
+.gradle/
+build/
+
+# =========================
+# IDEs
+# =========================
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+application-local.yml
+application-dev.yml
+application-secrets.yml
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Elasticsearch (IMPORTANT)
+# =========================
+# If you're running ES locally (non-docker install)
+elasticsearch/data/
+elasticsearch/logs/
+
+# If you accidentally unpacked ES inside project
+/elasticsearch-*/
+
+# =========================
+# Node (if you add Angular later)
+# =========================
+node_modules/
+dist/
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo
